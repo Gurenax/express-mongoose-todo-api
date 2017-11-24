@@ -8,7 +8,6 @@ const server = express()
 server.use(bodyParser.json())
 
 server.use('/',[
-  require('./routes/artists'),
   require('./routes/todos')
 ])
 

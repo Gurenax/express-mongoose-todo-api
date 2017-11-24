@@ -8,13 +8,15 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "mongoose": "^4.13.5"
   },
   "devDependencies": {
     "nodemon": "^1.12.1"
   },
   "scripts": {
     "dev": "nodemon src/server.js",
-    "debug": "nodemon --inspect src/server.js"
+    "debug": "nodemon --inspect src/server.js",
+    "seed": "node src/models/seeds.js"
   }
 }
