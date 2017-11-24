@@ -3,9 +3,9 @@
 ## Setup
 - `yard init`
 - `yard add express`
-- `yarn add nodemon`
-- modify package.json to add scripts `"yarn dev": "nodemon src/server.js"`
-- modify package.json to add scripts `"yarn debug": "nodemon --inspect src/server.js"`
+- `yarn add nodemon --dev`
+- modify package.json to add scripts `"dev": "nodemon src/server.js"`
+- modify package.json to add scripts `"debug": "nodemon --inspect src/server.js"`
 - create src/server.js
 - create express basic boilerplate
 ```javascript
@@ -21,7 +21,7 @@ server.listen(7000, () => {
 - `yarn add mongoose`
 - create models
 - create `seeds.js` file in src/models
-- modify package.json to add scripts `"yarn seed": "node src/models/seeds.js"`
+- modify package.json to add scripts `"seed": "node src/models/seeds.js"`
 
 ## Model
 

@@ -1,0 +1,19 @@
+{
+  "name": "express-mongoose-todo-api",
+  "version": "1.0.0",
+  "description": "Express Mongoose Todo API",
+  "main": "index.js",
+  "repository": "git@github.com:Gurenax/express-mongoose-todo-api.git",
+  "author": "Glenn Dimaliwat <glenn.dimaliwat@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "debug": "nodemon --inspect src/server.js"
+  }
+}
